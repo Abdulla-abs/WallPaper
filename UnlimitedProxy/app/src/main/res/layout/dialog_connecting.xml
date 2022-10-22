@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/shape_white_16"
+    android:padding="23dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/creating_vpn"
+        android:textColor="#ff2c2c2c"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_wait"
+        android:textColor="#ff707070"
+        android:textSize="16sp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <FrameLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="30dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            app:lottie_autoPlay="true"
+            android:layout_gravity="center"
+            app:lottie_fileName="load.json"
+            app:lottie_imageAssetsFolder="load/"
+            app:lottie_loop="true"/>
+
+    </FrameLayout>
+
+</LinearLayout>

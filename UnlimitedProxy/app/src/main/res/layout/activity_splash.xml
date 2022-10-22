@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_basic_background"
+    tools:context=".ui.SplashActivity">
+
+    <ImageView
+        android:id="@+id/splash_im"
+        android:layout_width="226dp"
+        android:layout_height="331dp"
+        android:layout_marginTop="103dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/splash_im" />
+
+    <LinearLayout
+        android:id="@+id/temp1_container_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/splash_im"
+        android:layout_marginTop="72dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/master_amp_unlimited_proxy"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:srcCompat="@mipmap/splash_lock"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/temp2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connect_with_the_world_safely_and_quickly"
+        android:textColor="#ffbcbcbc"
+        android:textSize="12sp"
+        android:layout_below="@+id/temp1_container_ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"/>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="210dp"
+        android:layout_height="8dp"
+        style="@style/ProgressBarScale"
+        android:min="0"
+        android:max="100"
+        android:progressDrawable="@drawable/layer_list_progress"
+        android:layout_below="@+id/temp2_tv"
+        android:layout_marginTop="46dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/progress_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textColor="@color/white"
+        android:layout_below="@+id/pb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:textSize="16sp"/>
+
+
+</RelativeLayout>

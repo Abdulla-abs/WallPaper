@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_basic_background"
+    android:orientation="vertical"
+    tools:context=".ui.ServiceActivity">
+
+    <View
+        android:id="@+id/status_bar_dimen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:scrollbars="none">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fast_servers"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp" />
+
+                <com.yw.unlimitedproxy.view.NoScrollListview
+                    android:id="@+id/fast_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:dividerHeight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:choiceMode="singleChoice"
+                    android:divider="@android:color/transparent"
+                    android:scrollbars="none"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="33dp"
+                android:scrollbars="none">
+
+                <TextView
+                    android:id="@+id/all_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/all"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp" />
+
+                <com.yw.unlimitedproxy.view.NoScrollListview
+                    android:id="@+id/all_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:dividerHeight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:divider="@android:color/transparent"
+                    android:scrollbars="none"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

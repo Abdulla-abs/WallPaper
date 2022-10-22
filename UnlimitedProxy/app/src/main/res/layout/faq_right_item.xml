@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp">
+
+    <ImageView
+        android:id="@+id/avatar_im"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:src="@mipmap/fqa_right1_icon" />
+
+    <TextView
+        android:id="@+id/content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/avatar_im"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="6dp"
+        android:layout_toLeftOf="@+id/avatar_im"
+        android:background="@drawable/shape_teal_9"
+        android:paddingStart="13dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="13dp"
+        android:paddingBottom="6dp"
+        android:text="How to use  VPN?"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+    <EditText
+        android:id="@+id/max_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="重置时间上限，不输入默认当前时间上限。单位分钟"/>
+
+    <EditText
+        android:id="@+id/run_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="重置《《已经运行时间》》,不输入默认当前运行时间。单位分钟"/>
+
+</LinearLayout>

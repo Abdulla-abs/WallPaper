@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_basic_background"
+    android:orientation="vertical"
+    tools:context=".ui.ProtocolActivity">
+
+    <View
+        android:id="@+id/status_bar_dimen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <include layout="@layout/title_bar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/shape_top_white_16"
+        android:fillViewport="true"
+        android:paddingStart="17dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="17dp"
+        android:paddingBottom="12dp">
+
+        <com.yw.unlimitedproxy.view.NoScrollWebView
+            android:id="@+id/content_wv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:descendantFocusability="blocksDescendants"/>
+
+
+    </ScrollView>
+
+</LinearLayout>

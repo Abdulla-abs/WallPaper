@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="326.67dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_white_16">
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="38dp"
+        android:text=""
+        android:textColor="#ff2c2c2c"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="341dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/shape_white_16"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingStart="17dp"
+    android:paddingEnd="17dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="71dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="ring.json"
+        app:lottie_imageAssetsFolder="ring/"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="There are 30 minutes left for this startup,
+Whether to get the duration for free？"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:textColor="#FF727272"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/yes_bt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/shape_teal_16"
+        android:text="Of course"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/no_bt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_gray_16"
+        android:text="I don't want it any more"
+        android:textAllCaps="false"
+        android:textColor="#FF2C2C2C"
+        android:textSize="16sp" />
+
+</LinearLayout>

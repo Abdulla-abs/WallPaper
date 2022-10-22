@@ -1,0 +1,116 @@
+{
+    "fastServers": [
+        {
+            "country": "United States",
+            "flag_url": "https://www.masterproxies.live/printimage/UnitedStates.png",
+            "server": [
+                {
+                    "server_address": "https://www.masterproxies.live/remote/usa-ohio-aws-01.ovpn",
+                    "server_key": "hzzt",
+                    "server_weight": 1
+                }
+            ]
+        },
+        {
+            "country": "Australia",
+            "flag_url": "https://www.masterproxies.live/printimage/Australia.png",
+            "server": [
+                {
+                    "server_address": "https://www.masterproxies.live/remote/australia-sydney-aws-01.ovpn",
+                    "server_key": "hzzt",
+                    "server_weight": 1
+                }
+            ]
+        }
+    ],
+    "all": [
+        {
+            "country": "United States",
+            "flag_url": "https://www.masterproxies.live/printimage/UnitedStates.png",
+            "server": [
+                {
+                    "server_address": "https://www.masterproxies.live/remote/usa-ohio-aws-01.ovpn",
+                    "server_key": "hzzt",
+                    "server_weight": 1
+                }
+            ]
+        },
+        {
+            "country": "Australia",
+            "flag_url": "https://www.masterproxies.live/printimage/Australia.png",
+            "server": [
+                {
+                    "server_address": "https://www.masterproxies.live/remote/australia-sydney-aws-01.ovpn",
+                    "server_key": "hzzt",
+                    "server_weight": 1
+                }
+            ]
+        },
+        {
+            "country": "Hong Kong",
+            "flag_url": "https://www.masterproxies.live/printimage/HongKong.png",
+            "server": [
+                {
+                    "server_address": "https://www.masterproxies.live/remote/usa-ohio-aws-01.ovpn",
+                    "server_key": "hzzt",
+                    "server_weight": 1
+                }
+            ]
+        },
+        {
+            "country": "Japan",
+            "flag_url": "https://www.masterproxies.live/printimage/Japan.png",
+            "server": [
+                {
+                    "server_address": "https://www.masterproxies.live/remote/usa-ohio-aws-01.ovpn",
+                    "server_key": "hzzt",
+                    "server_weight": 1
+                }
+            ]
+        },
+        {
+            "country": "Belgium",
+            "flag_url": "https://www.masterproxies.live/printimage/Belgium.png",
+            "server": [
+                {
+                    "server_address": "https://www.masterproxies.live/remote/usa-ohio-aws-01.ovpn",
+                    "server_key": "hzzt",
+                    "server_weight": 1
+                }
+            ]
+        },
+        {
+            "country": "Brazil",
+            "flag_url": "https://www.masterproxies.live/printimage/Brazil.png",
+            "server": [
+                {
+                    "server_address": "https://www.masterproxies.live/remote/usa-ohio-aws-01.ovpn",
+                    "server_key": "hzzt",
+                    "server_weight": 1
+                }
+            ]
+        },
+        {
+            "country": "Canada",
+            "flag_url": "https://www.masterproxies.live/printimage/Canada.png",
+            "server": [
+                {
+                    "server_address": "https://www.masterproxies.live/remote/usa-ohio-aws-01.ovpn",
+                    "server_key": "hzzt",
+                    "server_weight": 1
+                }
+            ]
+        },
+        {
+            "country": "Denmark",
+            "flag_url": "https://www.masterproxies.live/printimage/Denmark.png",
+            "server": [
+                {
+                    "server_address": "https://www.masterproxies.live/remote/usa-ohio-aws-01.ovpn",
+                    "server_key": "hzzt",
+                    "server_weight": 1
+                }
+            ]
+        }
+    ]
+}
